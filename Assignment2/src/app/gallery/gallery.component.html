@@ -1,0 +1,8 @@
+<div class="heading">
+    <h1>Gallery</h1>
+</div>
+<div *ngFor="let x of gallery">
+    <h3 id="gall" [style.backgroundColor]="x.color">
+        <span id="gdata">{{x.data}}</span>
+    </h3>
+</div>

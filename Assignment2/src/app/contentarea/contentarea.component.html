@@ -1,0 +1,16 @@
+<div class="header">
+<div id="content" *ngFor="let n of titles">
+    <h1>{{n.title}}</h1>
+    <p>{{n.content}}</p>
+</div>
+<div class="navigation">
+    <h1>Navigation</h1>
+    <div id="listss">
+    <ul>
+        <li id="listtype" *ngFor="let n of list">
+            {{n}}
+        </li>
+    </ul>
+</div>
+</div>
+</div>

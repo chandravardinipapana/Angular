@@ -1,0 +1,39 @@
+.header{
+        height: 250px;
+        width: 98%;
+        margin: 15px;
+        background-color:rgb(252, 251, 251);
+        color: rgb(15, 15, 15);
+        float: left;
+        box-shadow: 2px 2px 5px gray;
+        padding-bottom: 10px;
+        margin-top: 20px;
+        margin-left: 10px;
+        padding-left: 10px;
+         position: relative; 
+}
+#content{
+   
+    width:70%
+}
+.navigation{
+    padding-right: 30%;
+    display: table-cell;
+    align-items: right;
+     position: absolute;
+    left: 75%;
+    top: 5px; 
+}
+.navigation h1{
+   background-color: rgb(255, 255, 255);
+    padding-top: 24px;
+}
+#listtype{
+    list-style-type: none;
+}
+#listss{
+    height: 100px;
+    width: 20px;
+    background-color: rgb(209, 209, 209);
+    padding-right: 350px;
+}
